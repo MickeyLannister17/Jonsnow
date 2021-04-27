@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+     <div class="post-entry">
+         <h2><{{ object.title }}</h2>
+         <p>{{ object.body }}</p>
+     </div>
+
+    <a href="{% url 'post_edit' post.pk %}">+ Edit Blog Post</a>
+    <a href="{% url 'post_delete' post.pk %}">+ Delete Blog Post</a>
+
+
+
+    <br>
+    <h2><a href="{% url 'comment' post.pk %}">Comments</a></h2>
+    {% for comment in comments %}
+    <div>
+        <hr>
+        <p>{{comment.comment}}</p>
+        <p><em>{{ comment.author }}</em></p>
+    </div>
+{% endfor %}
+{% endblock content %}
