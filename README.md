@@ -6,4 +6,4 @@
 
 ### Users can also create, edit, comment and, delete posts made.
 
-#### You can access the blog here ... [Heroku](https://senaikepooldis.herokuapp.com)
+#### You can access the blog here ... [Heroku](https://senaikepooldis.herokuapp.com/accounts/signup)
