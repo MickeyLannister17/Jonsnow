@@ -1,4 +1,4 @@
-# Jonsnow
+# THE WESTEROS BLOG
 
 ## This is the Westeros Blog, a pseudo blog or something similar to an actual blog created by me.
 
